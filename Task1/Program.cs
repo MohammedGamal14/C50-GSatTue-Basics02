@@ -52,6 +52,13 @@
             }
             #endregion
 
+            #region Q5
+            // Declare an int pages = 300; then store it in a double variable without using a cast.
+            int pages2 = 300;
+            double d = pages2;
+            Console.WriteLine(d);
+            #endregion
+
         }
     }
 }
