@@ -59,6 +59,14 @@
             Console.WriteLine(d);
             #endregion
 
+            #region Q6
+            // Declare a double price = 49.99; then convert it into an int using a cast.
+            double price = 49.99;
+            int p = (int)price;
+            Console.WriteLine(p);
+            #endregion
+
+
         }
     }
 }
