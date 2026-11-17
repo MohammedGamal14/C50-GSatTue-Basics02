@@ -34,6 +34,23 @@
             int pages = 464;
             #endregion
 
+            #region Q4
+            // Divide 10 by 0 inside a try block, catch the exception,
+            // print "Cannot divide by zero", then print "Done" in a finally block.
+            try
+            {
+                int zero = 0;
+                int x = 10 / zero;
+            }
+            catch
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            #endregion
 
         }
     }
