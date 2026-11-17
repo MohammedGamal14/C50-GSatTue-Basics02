@@ -97,7 +97,15 @@
             Console.WriteLine(s.GetType());
             #endregion
 
-
+            #region Q10
+            // Declare int copies = 100;. Box it into an object variable,
+            // then unbox it back into a new int variable, and print both.
+            int copies = 100;
+            object boxed = copies;
+            int unboxed = (int)boxed;
+            Console.WriteLine(boxed);
+            Console.WriteLine(unboxed);
+            #endregion
 
 
         }
