@@ -116,6 +116,12 @@
             Console.WriteLine(year);
             #endregion
 
+            #region Q12
+            // Declare a string? reviewer = null;. Print whether it is null.
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null);
+            #endregion
+
 
 
         }
