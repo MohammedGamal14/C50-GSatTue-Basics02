@@ -122,6 +122,14 @@
             Console.WriteLine(reviewer == null);
             #endregion
 
+            #region Q13
+            // Declare a Book? book = null;. Use ?. to safely read book.Title
+            // without crashing the program, and print the result.
+            Book? book2 = null;
+            string? title = book2?.Title;
+            Console.WriteLine(title);
+            #endregion
+
 
 
         }
