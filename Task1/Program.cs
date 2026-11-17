@@ -89,6 +89,17 @@
             }
             #endregion
 
+            #region Q9
+            // Given int pages = 464;, convert it into a string using ToString()
+            // and print its type using GetType() to prove it's now a string.
+            int pages3 = 464;
+            string s = pages3.ToString();
+            Console.WriteLine(s.GetType());
+            #endregion
+
+
+
+
         }
     }
 }
